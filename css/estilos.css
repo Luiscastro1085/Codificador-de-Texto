@@ -82,6 +82,7 @@ section {
     align-items: center;
     padding: 0 9%;
     /* cambiar esta img por la mia  */
+    background-image: url(./img/diseño\ \(1\).png);
     background-size: cover;
     background-position: center;
 }
@@ -627,8 +628,7 @@ span {
         display: flex;
         align-items: center;
         padding: 0 9%;
-        background-size: cover;
-        background-position: center;
+        background: transparent;
     }
     .inicio-content h1 {
         font-size: 5rem;
