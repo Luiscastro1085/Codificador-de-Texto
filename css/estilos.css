@@ -81,12 +81,15 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    /* cambiar esta img por la mia  */
-   /* background-image: url(./img/diseño.png);*/
-    background-size: cover;
-    background-position: center;
 }
 
+.inicio img {
+    position:relative;
+    width: 270px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 0 10px 0 230px;
+}
 
 .inicio-content {
     max-width: 60rem;
@@ -565,6 +568,28 @@ span {
     }
 }
 
+@media (max-width:720px) {
+    .inicio img {
+    width: 150px;
+    height: 250px;
+    margin: 0 30px 0 100px;
+    }
+}
+
+@media (max-width:580px) {
+    .inicio img {
+    width: 150px;
+    height: 200px;
+    margin: 0 60px 0 50px;
+    }
+}
+
+@media (max-width:500px) {
+    .inicio img {
+        display: none;
+    }
+}
+
 @media (max-width: 600px) {
     .header {
         background: var(--bg-color);
@@ -628,6 +653,8 @@ span {
         display: flex;
         align-items: center;
         padding: 0 9%;
+        /* background-size: cover;
+        background-position: center; */
         background: transparent;
     }
     .inicio-content h1 {
